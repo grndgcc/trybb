@@ -1,23 +1,19 @@
-STAT BUBBLES - GITHUB PAGES READY BUILD
+STAT BUBBLES - GITHUB PAGES /trybb KURULUMU
 
-Bu klasördeki dosyalar doğrudan GitHub Pages kök dizinine yüklenecek hazır build dosyalarıdır.
+Bu paket, su adrese gore ayarlanmistir:
+https://grndgcc.github.io/trybb/index.html
 
-Kullanım:
-1) Yeni bir GitHub repo oluştur: owlbear-stat-bubbles
-2) Bu ZIP'in içindeki dosyaları repo köküne yükle:
-   - manifest.json
-   - index.html
-   - background.html
-   - icon.svg
-   - assets/...
-3) GitHub -> Settings -> Pages:
-   Source: Deploy from a branch
-   Branch: main
-   Folder: / (root)
-4) Pages yayına girdikten sonra Owlbear extension manifest URL'si:
-   https://KULLANICI_ADI.github.io/owlbear-stat-bubbles/manifest.json
+GitHub repo iceriginde dosyalar su klasor/yolda bulunmali:
+trybb/manifest.json
+trybb/index.html
+trybb/background.html
+trybb/icon.svg
+trybb/assets/...
 
-ÖNEMLİ:
-- Owlbear'a github.com/.../blob/... linki verme. Bu JSON değil HTML sayfasıdır.
-- raw.githubusercontent.com linki yerine GitHub Pages linki kullan.
-- manifest URL tarayıcıda açılınca JSON metni görünmeli ve 404 vermemeli.
+Owlbear Rodeo'ya index.html degil, manifest.json adresini gir:
+https://grndgcc.github.io/trybb/manifest.json
+
+Tarayicida once bu adresi test et:
+https://grndgcc.github.io/trybb/manifest.json
+
+Dogruysa JSON olarak acilmali ve 404/HTML gostermemeli.
