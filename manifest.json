@@ -1,8 +1,8 @@
 {
   "name": "Stat Bubbles",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "manifest_version": 1,
-  "description": "Stat bubbles for Owlbear Rodeo character tokens with persistent map labels and JSON backup.",
+  "description": "Hover-only stat bubbles for Owlbear Rodeo character tokens with JSON backup.",
   "author": "Grond Gecici",
   "homepage_url": "https://grndgcc.github.io/trybb/index.html",
   "icon": "https://grndgcc.github.io/trybb/icon.svg",
