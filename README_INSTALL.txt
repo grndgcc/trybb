@@ -1,19 +1,31 @@
-STAT BUBBLES - GITHUB PAGES /trybb KURULUMU
+Stat Bubbles v1.1.0 - grndgcc.github.io/trybb hazır paket
 
-Bu paket, su adrese gore ayarlanmistir:
-https://grndgcc.github.io/trybb/index.html
+KURULUM
+1) Bu ZIP içindeki dosyaları GitHub repo içindeki trybb klasörüne yükle.
+   trybb klasöründe direkt şu dosyalar görünmeli:
+   - manifest.json
+   - index.html
+   - background.html
+   - icon.svg
+   - assets/
 
-GitHub repo iceriginde dosyalar su klasor/yolda bulunmali:
-trybb/manifest.json
-trybb/index.html
-trybb/background.html
-trybb/icon.svg
-trybb/assets/...
+2) Tarayıcıdan kontrol et:
+   https://grndgcc.github.io/trybb/manifest.json
+   JSON olarak açılmalı.
 
-Owlbear Rodeo'ya index.html degil, manifest.json adresini gir:
-https://grndgcc.github.io/trybb/manifest.json
+3) Owlbear Rodeo eklenti adresi:
+   https://grndgcc.github.io/trybb/manifest.json
 
-Tarayicida once bu adresi test et:
-https://grndgcc.github.io/trybb/manifest.json
+BU SÜRÜMDE DÜZELTİLENLER
+- Kaydet düğmesine basınca token üstüne gerçek harita label bubble'ları eklenir.
+- Stat silinince ilgili bubble'lar da silinir.
+- JSON içe aktarınca bubble'lar otomatik oluşturulur.
+- Eski metadata kayıtlarını görünür yapmak için panelde "Harita bubble’larını yeniden oluştur" düğmesi eklendi.
 
-Dogruysa JSON olarak acilmali ve 404/HTML gostermemeli.
+KULLANIM
+1) GM olarak sahnede bir karakter token'ı seç.
+2) Statları gir.
+3) "Seçili token’a kaydet" düğmesine bas.
+4) Bubble'lar token'ın üstünde haritada görünmelidir.
+
+Not: Önceki v1.0.0 sürümünden kayıtlı statların varsa panelden "Harita bubble’larını yeniden oluştur" düğmesine bas.
